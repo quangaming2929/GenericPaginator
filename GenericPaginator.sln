@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericPaginator", "GenericPaginator\GenericPaginator.csproj", "{8B65FB52-096B-4599-9424-DC884A759EB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{C4BDCB01-B247-4F24-AE59-4A8894584340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{C4BDCB01-B247-4F24-AE59-4A8894584340}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

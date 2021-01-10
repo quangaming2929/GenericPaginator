@@ -88,6 +88,13 @@ namespace ImagiSekaiTechnologies.GenericPaginator
         Task SetCurrentPageIndex(int index);
 
         /// <summary>
+        /// If the index can be set directly without processing
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        Task<bool> IsValidPageIndex(int index);
+
+        /// <summary>
         /// Get the total pages of the current <see cref="IPagedDataSet{TItem, TResult}"/>
         /// </summary>
         /// <returns></returns>

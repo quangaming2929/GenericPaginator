@@ -21,6 +21,13 @@ namespace ImagiSekaiTechnologies.GenericPaginator
         Task SetCaretPosition(int newPosition);
 
         /// <summary>
+        /// If the position can be set directly without processing
+        /// </summary>
+        /// <param name="position"></param>
+        /// <returns></returns>
+        Task IsValidCaretPosition(int position);
+
+        /// <summary>
         /// Use <see cref="ISelectable{TItem}.GetSelectedItem()"/> unless you know what are you doing
         /// </summary>
         Task<object> GetSelectedItem();

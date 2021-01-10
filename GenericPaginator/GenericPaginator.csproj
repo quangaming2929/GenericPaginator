@@ -1,8 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>ImagiSekaiTechnologies.GenericPaginator</RootNamespace>
+    
+    <PackageId>GenericPaginator</PackageId>
+    <Version>0.1.0-alpha</Version>
+    <Authors>Tachibana Yui</Authors>
+    <Company>ImagiSekai Technologies</Company>
+    <PackageDescription>A simple library that control paginated pages</PackageDescription>
+    <RepositoryUrl>https://github.com/quangaming2929/GenericPaginator</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

@@ -54,5 +54,7 @@ namespace ImagiSekaiTechnologies.GenericPaginator
             else
                 throw new ArgumentException("Invalid type argument", nameof(item));
         }
+
+        public async Task IsValidCaretPosition(int position) => NumberHelper.IsInRange(position, 0, (await PagedDataSet.GetPageItems()).Count());
     }
 }

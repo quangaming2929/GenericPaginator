@@ -146,6 +146,7 @@ namespace ImagiSekaiTechnologies.GenericPaginator
         async Task<IMovable> IPagedDataSet.GetMover() => await GetMover();
         async Task<IAddable> IPagedDataSet.GetAdder() => await GetAdder();
         async Task<IRemovable> IPagedDataSet.GetRemover() => await GetRemover();
+        public async Task<bool> IsValidPageIndex(int index) => NumberHelper.IsInRange(index, 0, await GetPageCount());
         #endregion
     }
 }
